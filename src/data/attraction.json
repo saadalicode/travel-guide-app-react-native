@@ -1,0 +1,244 @@
+[
+    {
+        "id": 1,
+        "name": "Colosseum",
+        "city": "Rome",
+        "country": "Italy",
+        "entry_price": "$20",
+        "address": "Piazza del Colosseo, 1, 00184 Roma RM, Italy",
+        "opening_time": "9:00 AM",
+        "closing_time": "7:00 PM",
+        "categories": [
+            "Most Visited",
+            "Historical"
+        ],
+        "images": [
+            "https://www.arttrav.com/wp-content/uploads/2021/06/colosseum-alexandrakorey.jpg",
+            "https://th.bing.com/th/id/OIP.Ll9DO4o6jgIaLmevbRZpoQAAAA?rs=1&pid=ImgDetMain",
+            "https://upload.wikimedia.org/wikipedia/commons/5/53/Colosseum_in_Rome%2C_Italy_-_April_2007.jpg",
+            "https://static01.nyt.com/images/2022/06/12/world/12italy-colosseum-01/merlin_206622975_bf44e9c5-b817-405f-b46a-33f6fe5f88a8-superJumbo.jpg",
+            "http://cdn.cnn.com/cnnnext/dam/assets/200925160752-colosseum-file-restricted.jpg",
+            "https://www.travelandleisure.com/thmb/t74QyXS4Oi2C0Lg-_waWgOKTstI=/1600x1000/filters:fill(auto,1)/colosseum-rome-night-stars-ARENA0217-b7ebd36d82b0427caaac90674ba17028.jpg",
+            "https://www.fodors.com/wp-content/uploads/2019/04/HERO_Colosseum_101_shutterstock_147643964.jpg",
+            "https://hips.hearstapps.com/hmg-prod/images/tod-s-for-colosseum-hypogea-1-1624912790.jpg"
+        ],
+        "coordinates": {
+            "lat": 41.8902,
+            "lon": 12.4922
+        }
+    },
+    {
+        "id": 2,
+        "name": "Taj Mahal",
+        "city": "Agra",
+        "country": "India",
+        "entry_price": "$14",
+        "address": "Dharmapuri, Forest Colony, Tajganj, Agra, Uttar Pradesh 282001, India",
+        "opening_time": "7:00 AM",
+        "closing_time": "5:00 PM",
+        "categories": [
+            "Most Visited",
+            "Historical"
+        ],
+        "images": [
+            "https://dynamic-media-cdn.tripadvisor.com/media/photo-o/1b/6e/b1/6a/caption.jpg?w=1200&h=-1&s=1",
+            "https://www.forbesindia.com/media/images/2022/May/img_184243_tajmahalindia.jpg",
+            "https://www.tajmahal.gov.in/images/tajmahal-view/day/1.jpg"
+        ],
+        "coordinates": {
+            "lat": 27.1751,
+            "lon": 78.0421
+        }
+    },
+    {
+        "id": 3,
+        "name": "Eiffel Tower",
+        "city": "Paris",
+        "country": "France",
+        "entry_price": "$25",
+        "address": "Champ de Mars, 5 Av. Anatole France, 75007 Paris, France",
+        "opening_time": "9:30 AM",
+        "closing_time": "10:45 PM",
+        "categories": [
+            "Most Visited",
+            "Recommended"
+        ],
+        "images": [
+            "https://www.planetware.com/photos-large/F/eiffel-tower.jpg",
+            "https://www.thetrainline.com/cms/media/1360/france-eiffel-tower-paris.jpg?mode=crop&width=1080&height=1080&quality=70",
+            "https://www.grunge.com/img/gallery/the-bizarre-history-of-the-eiffel-tower/l-intro-1602781703.jpg",
+            "https://th-thumbnailer.cdn-si-edu.com/Q-oOOYwzuhWGLlUa0NvS4jbMGoI=/fit-in/1600x0/filters:focal(1500x1000:1501x1001)/https://tf-cmsv2-smithsonianmag-media.s3.amazonaws.com/filer_public/04/0f/040fc6b3-2c00-4592-9993-8c0c485fcf99/gettyimages-142198198.jpg"
+        ],
+        "coordinates": {
+            "lat": 48.8584,
+            "lon": 2.2945
+        }
+    },
+    {
+        "id": 4,
+        "name": "Leaning Tower of Pisa",
+        "city": "Pisa",
+        "country": "Italy",
+        "entry_price": "$20",
+        "address": "Piazza del Duomo, 56126 Pisa PI, Italy",
+        "opening_time": "9:00 AM",
+        "closing_time": "07:00 PM",
+        "categories": [
+            "Popular"
+        ],
+        "images": [
+            "https://cdn.mos.cms.futurecdn.net/QF5qpbogF6JCsuogypL3Fd.jpg",
+            "https://juliasalbum.com/wp-content/uploads/2019/04/leaning-tower-of-Pisa-Italy.jpg",
+            "https://i.pinimg.com/originals/9d/d9/47/9dd947df69dfb08fc55218c1eecad7ce.jpg"
+        ],
+        "coordinates": {
+            "lat": 43.7230,
+            "lon": 10.3966
+        }
+    },
+    {
+        "id": 5,
+        "name": "Statue of Liberty",
+        "city": "New York",
+        "country": "USA",
+        "entry_price": "$18",
+        "address": "Liberty Island, New York, NY 10004, USA",
+        "opening_time": "8:30 AM",
+        "closing_time": "6:00 PM",
+        "categories": [
+            "Historical",
+            "Popular"
+        ],
+        "images": [
+            "https://www.worldatlas.com/upload/f4/d8/7b/shutterstock-1397031029.jpg",
+            "https://res.cloudinary.com/simpleview/image/upload/crm/newyorkstate/statueofliberty_julienneschaer_077_ade37ed2-fc26-2db2-4f0873df93118bb3.jpg",
+            "https://www.amtrak.com/content/dam/projects/dotcom/english/public/images/content/statue-of-liberty.jpg/_jcr_content/renditions/original",
+            "https://wallpaperaccess.com/full/1098742.jpg"
+        ],
+        "coordinates": {
+            "lat": 40.6892,
+            "lon": -74.0445
+        }
+    },
+    {
+        "id": 6,
+        "name": "Sydney Opera House",
+        "city": "Sydney",
+        "country": "Australia",
+        "entry_price": "$25",
+        "address": "Bennelong Point, Sydney NSW 2000, Australia",
+        "opening_time": "9:00 AM",
+        "closing_time": "5:00 PM",
+        "categories": [
+            "Cultural",
+            "Recommended"
+        ],
+        "images": [
+            "https://th.bing.com/th/id/R.e720542557ae61b7181cf6c526a5e47f?rik=QuPwinuwpr7jkw&riu=http%3a%2f%2fwww.getsready.com%2fwp-content%2fuploads%2f2016%2f07%2fOpera-House-botanical-garden.jpg&ehk=tdaNraiLFkf6uRKrcnSUfkHQu%2fenLosGAknXsQ8U4wU%3d&risl=&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/OIP.ZWSDAZ7ti31tTY6phZtV7AHaEs?rs=1&pid=ImgDetMain",
+            "https://www.tripsavvy.com/thmb/V6JxfYqOrA268Li6fra_jSlkcCA=/2121x1414/filters:fill(auto,1)/OperaHouse-755d893182dc4811b608eb1a99792fd7.jpg",
+            "https://th.bing.com/th/id/R.f4ffbb87f2f73ee28ffc5029fcbacc6a?rik=ukuDlCgNSAQ5Nw&pid=ImgRaw&r=0",
+            "https://i.redd.it/xfir8tccm9g01.jpg",
+            "https://images.lifestyleasia.com/wp-content/uploads/sites/7/2023/02/10095720/hifi-tyler-duston-unsplash-tlhero.jpeg"
+        ],
+        "coordinates": {
+            "lat": -33.8568,
+            "lon": 151.2153
+        }
+    },
+    {
+        "id": 7,
+        "name": "Christ the Redeemer",
+        "city": "Rio de Janeiro",
+        "country": "Brazil",
+        "entry_price": "$20",
+        "address": "Parque Nacional da Tijuca, Rio de Janeiro - RJ, Brazil",
+        "opening_time": "8:00 AM",
+        "closing_time": "7:00 PM",
+        "categories": [
+            "Cultural",
+            "UNESCO World Heritage"
+        ],
+        "images": [
+            "https://th.bing.com/th/id/R.d1244d62c4a1d998e1f0ec283a7bc687?rik=b6sT%2bKszFF%2fnMA&riu=http%3a%2f%2fstatic.thousandwonders.net%2fChrist.the.Redeemer.original.2544.jpg&ehk=ClRu6WQFql2u3OcH34GpDzSNAxEs9oUyAUJc7XUTe%2f8%3d&risl=&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/OIP.hZA5f5_lGVNQ7akq1KLA_QHaEo?w=1100&h=687&rs=1&pid=ImgDetMain",
+            "https://th.bing.com/th/id/OIP.m4jr14lTMeg9m-4ahNL1jwHaHa?w=900&h=900&rs=1&pid=ImgDetMain"
+        ],
+        "coordinates": {
+            "lat": -22.9519,
+            "lon": -43.2105
+        }
+    },
+    {
+        "id": 8,
+        "name": "Acropolis of Athens",
+        "city": "Athens",
+        "country": "Greece",
+        "entry_price": "$12",
+        "address": "Athens 105 58, Greece",
+        "opening_time": "8:00 AM",
+        "closing_time": "8:00 PM",
+        "categories": [
+            "Historical",
+            "UNESCO World Heritage"
+        ],
+        "images": [
+            "https://th.bing.com/th/id/R.ba5ea6328a9eb2dbcbc3b7501f298c0c?rik=d98tBNGwFguJCw&riu=http%3a%2f%2fwww.gtp.gr%2fMGfiles%2flocation%2fimage32762%5b3627%5d.jpg&ehk=PBP8KrF%2b6DIHJwclu2aTMLn0ldJYQ1oIQr%2bXrArZQ%2bg%3d&risl=&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/R.a91afbc4c9099d935a361d4b90fdd851?rik=a5%2biODRd4xVyRA&pid=ImgRaw&r=0",
+            "https://th.bing.com/th/id/R.7d10f6e043a161c2c3b8ba91a5642c5b?rik=Y6epzKwYKZ6PfA&riu=http%3a%2f%2fwww.missadventuresabroad.com%2fwp-content%2fuploads%2f2016%2f08%2fIMG_6998.jpg&ehk=OxUsAsJ5hRt7gTULc8OLgsQOpuIU1U9AyUcC3qR6i2w%3d&risl=&pid=ImgRaw&r=0",
+            "https://images.squarespace-cdn.com/content/v1/5ddea1545784972daac01b38/1581630400398-JX2RXDLEOOH4KEE7TPH6/DSC01143_edited.jpg"
+        ],
+        "coordinates": {
+            "lat": 37.9755,
+            "lon": 23.7347
+        }
+    },
+    {
+        "id": 9,
+        "name": "Burj Khalifa",
+        "city": "Dubai",
+        "country": "UAE",
+        "entry_price": "$40",
+        "address": "1 Sheikh Mohammed bin Rashid Blvd, Dubai, UAE",
+        "opening_time": "8:00 AM",
+        "closing_time": "11:00 PM",
+        "categories": [
+            "Most Visited",
+            "Recommended",
+            "Popular"
+        ],
+        "images": [
+            "https://arabiahorizons.com/blog/wp-content/uploads/2020/06/Burj-Khalifa-Floors.jpg",
+            "https://th.bing.com/th/id/OIP.OU9agM0HeLa7v_6VZC2mhQHaDt?w=768&h=384&rs=1&pid=ImgDetMain",
+            "https://res.cloudinary.com/hello-tickets/image/upload/c_limit,f_auto,q_auto,w_1300/v1642219427/rjxkea8a7yz3ygxfjcw3.jpg"
+        ],
+        "coordinates": {
+            "lat": 25.1972,
+            "lon": 55.2744
+        }
+    },
+    {
+        "id": 10,
+        "name": "Badshahi Mosque",
+        "city": "Lahore",
+        "country": "Pakistan",
+        "entry_price": "$3",
+        "address": "Badshahi Mosque Road, Lahore, Pakistan",
+        "opening_time": "8:00 AM",
+        "closing_time": "6:00 PM",
+        "categories": [
+            "Historical"
+        ],
+        "images": [
+            "https://th.bing.com/th/id/R.78f0c42f463e65b327d35b9f3bfa0175?rik=0D75lGkM%2bSalPQ&riu=http%3a%2f%2f2.bp.blogspot.com%2f-TnvxNNmxpDk%2fUSGr304EaUI%2fAAAAAAAAAbI%2fz53psPuxEQM%2fs1600%2fbadshahi-mosque-lahore-wallpaper.jpg&ehk=nszie4fjZUyeeN6gVpK4tusPsjXkSb09AnKKuW2ijac%3d&risl=&pid=ImgRaw&r=0",
+            "https://i.pinimg.com/originals/f4/80/08/f480089fafa42cc53b36765ea425599d.jpg",
+            "https://aroundpakistan.com/wp-content/uploads/2017/08/15574712312_f5f3ff13ac_z.jpg",
+            "https://i.pinimg.com/originals/ba/b4/ff/bab4ffdc28a4499a5d1ed5a53adc9be1.png",
+            "https://wallpaperaccess.com/full/6862562.jpg"
+        ],
+        "coordinates": {
+            "lat": 31.5820,
+            "lon": 74.3587
+        }
+    }
+]
