@@ -3,6 +3,8 @@ import { StatusBar } from "expo-status-bar";
 import "react-native-gesture-handler";
 import { NavigationContainer } from "@react-navigation/native";
 import { createStackNavigator } from "@react-navigation/stack";
+import { onAuthStateChanged } from "firebase/auth";
+import { View, ActivityIndicator } from "react-native";
 import Home from "./src/screens/app/home/home";
 import AttractionDetails from "./src/screens/app/AttractionDetails";
 import Gallery from "./src/screens/app/Gallery";
@@ -11,7 +13,6 @@ import OnBoard from "./src/screens/auth/OnBoard";
 import Signin from "./src/screens/auth/Signin";
 import Signup from "./src/screens/auth/Signup";
 import { auth } from "./src/screens/auth/firebase";
-import { onAuthStateChanged } from "firebase/auth";
 
 const Stack = createStackNavigator();
 
@@ -26,7 +27,7 @@ function AuthProvider({ children }) {
   useEffect(() => {
     const unsubscribe = onAuthStateChanged(auth, (currentUser) => {
       setUser(currentUser);
-      setLoading(false); // Stop loading once the user is checked
+      setLoading(false);
     });
 
     return () => unsubscribe(); // Cleanup the listener on unmount
@@ -44,18 +45,24 @@ function useAuth() {
   return useContext(AuthContext);
 }
 
+function LoadingScreen() {
+  return (
+    <View style={{ flex: 1, justifyContent: "center", alignItems: "center" }}>
+      <ActivityIndicator size="large" color="#0000ff" />
+    </View>
+  );
+}
+
 function AppNavigator() {
   const { user, loading } = useAuth();
 
-  // Show a loading screen while checking auth status
   if (loading) {
-    return null; // Optionally, render a loading spinner or splash screen
+    return <LoadingScreen />;
   }
 
   return (
     <Stack.Navigator screenOptions={{ headerShown: false }}>
       {user ? (
-        // Protected routes for authenticated users
         <>
           <Stack.Screen name="Home" component={Home} />
           <Stack.Screen name="AttractionDetails" component={AttractionDetails} />
@@ -63,7 +70,6 @@ function AppNavigator() {
           <Stack.Screen name="Map" component={Map} />
         </>
       ) : (
-        // Public routes for unauthenticated users
         <>
           <Stack.Screen name="OnBoard" component={OnBoard} />
           <Stack.Screen name="Signin" component={Signin} />

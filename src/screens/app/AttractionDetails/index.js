@@ -25,7 +25,6 @@ ${item.opening_time} - ${item.closing_time}`
 
     const onShare = async () => {
         try {
-            // Share the URL directly
             const result = await Share.share({
                 title: item.name,
                 message: `Hey, I want to share this amazing attraction!\n${mainImage}`, // Share the URL in the message
