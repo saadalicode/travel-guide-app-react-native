@@ -22,7 +22,7 @@
       },
       "config": {
         "googleMaps": {
-          "apiKey": "AIzaSyC4OjAc12HyFdAhOH0lFf_f0eX2gJVOyD8"
+          "apiKey": "" //Enter here the google map key first.
         }
       }
     },
